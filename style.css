@@ -1,0 +1,112 @@
+* {
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+.expense-details-container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2.5em;
+}
+
+.title {
+    color: black;
+}
+
+.content {
+    border-radius: 28px;
+    background-color: black;
+}
+
+.second-title {
+    margin: 0;
+}
+
+.form {
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.block {
+    display: block;
+    margin-bottom: 0.25em;
+}
+
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+input,
+select {
+    height: 26px;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+}
+
+/* table style */
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+thead {
+    background-color: #042159;
+    line-height: 30px;
+}
+
+/* Button */
+
+button {
+    width: 150px;
+    color: #000;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 20px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+  
+    text-decoration: underline;
+
+}

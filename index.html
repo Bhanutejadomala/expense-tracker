@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Tracker App</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="expense-details-container">
+        <h1 class="title">Expense Tracker App</h1>
+        <header>
+
+            <section class="content">
+                <div class="details-container">
+                    <h3 class="second-title">Add a New Expense: </h3>
+                    <div class="form">
+                        <form id="expForm">
+                            <div class="container">
+                                <div class="container-one ">
+                                    <div class="formLine left">
+                                        <label class="block" for="type">Type:</label>
+                                        <select id="type">
+                                            <option value="chooseOne">Choose one...</option>
+                                            <option value="Card">Card</option>
+                                            <option value="Cash">Cash</option>
+
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block" for="date">Date:</label>
+                                        <input type="date" id="date">
+                                    </div>
+                                </div>
+                                <div class="container-two">
+                                    <div>
+                                        <label class="block" for="name">Name:</label>
+                                        <input type="text" id="name">
+                                    </div>
+                                    <div>
+                                        <label class="block" for="amount">Amount:</label>
+                                        <input type="text" id="amount">
+                                    </div>
+                                </div>
+                                <button type="submit" class="buttonSave">Add Expense</button>
+                            </div>
+                        </form>
+                    </div>
+                    <section>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Name</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Options</th>
+                                </tr>
+                            </thead>
+                            <tbody id="expenseTable">
+    
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </section>
+            <script src="script.js"></script>
+</body>
+
+</html>
